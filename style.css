@@ -69,3 +69,8 @@ main {
 footer {
   grid-area: copy;
 }
+
+h2{
+  text-align: center;
+  text-decoration: underline;
+}
