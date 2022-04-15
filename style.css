@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+article {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 550px 450px 450px;
+  grid-gap: 10px;
+
+  max-width: 3000px;
+  margin: 0 auto;
+}
+
+#flag #military #society{
+  grid-column: 3;
+  grid-row: 1 / 3;
+}
+
+#map {
+  grid-column: 1 / span 2;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+header,
+footer {
+  background-color: #eee;
+  padding: 0 20px;
+}
+
+header{
+  text-decoration: overline underline;
+  text-align: center;
+}
+
+
+section {
+  background-color: #ddd;
+
+main {
+  max-width: 3000px;
+  max-height:3000px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-template-areas:
+    "head    head   head"
+    "nav    here    here"
+    "copy   copy  copy";
+}
+
+header {
+  grid-area: head;
+}
+
+main {
+  grid-area: here;
+}
+
+footer {
+  grid-area: copy;
+}
