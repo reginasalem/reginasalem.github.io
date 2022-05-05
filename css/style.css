@@ -1,0 +1,140 @@
+header.index{
+background-color: white;
+color: #333333;
+text-align: center;
+margin: 50px;
+font-family: sans-serif;
+}
+
+.index h1{
+text-decoration: overline underline;
+font-size: 70px;
+margin-top: 20px;
+}
+
+.index h4{
+font-style: italic;
+font-weight: lighter;
+font-size: 20px;
+}
+
+main.index{
+text-align: right;
+margin-top: 50px;
+background-color: #eee;
+
+display: grid;
+width: 1420px;
+grid-template-columns: 350px 250px 300px;
+grid-gap: 150px;
+grid-template-areas:
+"touring foodanddrinks clubs";
+}
+
+section #touring{
+grid-area: touring;
+}
+
+section #food-and-drinks{
+grid-area: foodanddrinks;
+}
+
+section #clubs{
+grid-area: clubs;
+}
+
+.index section{
+color: #333333;
+font-family: sans-serif;
+font-size: 15px;
+text-decoration: none;
+font-weight:600;
+}
+
+section img{
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 10px;
+}
+
+body.places{
+  background-color: #eeeeee;
+}
+
+.places header{
+  color: #333333;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: overline;
+}
+
+main{
+  color: #333333;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 23px;
+  margin: 50px;
+
+  display: grid;
+  grid-template-columns: 600px 200px;
+  grid-gap: 50px;
+  grid-template-areas:
+  "text1  picture1"
+  "text2  picture2"
+  "text3  picture3"
+  "text4  picture4"
+  "text5  picture5"
+}
+
+/* section.first{
+  grid-area: text1;
+}
+
+figure.first{
+  grid-area: picture1;
+}
+
+section.second{
+  grid-area: text2;
+}
+
+figure.second{
+  grid-area: picture2;
+} */
+
+
+h3{
+  text-decoration: underline;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+
+h5{
+  text-align: center;
+  padding-left: 10px;
+  font-style: italic;
+  font-weight: lighter;
+  margin-top: 50px;
+}
+
+p{
+  text-align: center;
+  padding-left: 90px;
+  padding-right: 70px;
+  font-weight: normal;
+  margin-top: 50px;
+}
+
+figure{
+  margin: 20px;
+}
+
+.places section{
+  border: 2px solid #222;
+  border-radius: 100px;
+}
