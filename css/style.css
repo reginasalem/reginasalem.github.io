@@ -21,13 +21,11 @@ font-size: 20px;
 
 main{
 text-align: right;
-margin: 50px;
-
-display: grid;
-max-width: 4500px;
-max-height:2000px;
+margin-top: 50px;
 background-color: #eee;
 
+display: grid;
+width: 1420px;
 grid-template-columns: 350px 250px 300px;
 grid-gap: 150px;
 grid-template-areas:
@@ -36,41 +34,41 @@ grid-template-areas:
 
 section #touring{
 grid-area: touring;
-color: #333333;
-text-decoration: none;
 }
 
 section #food-and-drinks{
 grid-area: foodanddrinks;
-color: #333333;
-text-decoration: none;
 }
 
 section #clubs{
 grid-area: clubs;
-color: #333333;
-text-decoration: none;
 }
 
-main h3{
-color: #333333;
+section h2{
+color: #cccccc;
 font-family: sans-serif;
-font-size: 60px;
-margin: 5px;
-}
-
-h3{
-color: red;
-}
-
-h5{
-
+font-size: 20px;
+text-decoration: none;
+font-weight:600;
 }
 
 section img{
 margin-left: 40px;
 margin-right: 40px;
 margin-top: 10px;
+}
+
+
+/* xxxxxx  */
+
+
+.fooddrinks{
+text-align: center;
+font-family: sans-serif;
+}
+
+/* h5{
+
 }
 
 section h2{
@@ -80,4 +78,4 @@ section h2{
 
 p{
 
-}
+} */
